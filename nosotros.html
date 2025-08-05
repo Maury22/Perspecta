@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perspecta Studio</title>
+  <link rel="stylesheet" href="css/nosotros.css" />
+  <link rel="icon" type="image/png" href="img/logo0.png" />
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link
+  rel="preload" 
+  as="image" 
+  href="img/montoya2.jpg" 
+  href="img/FrenteCasa.jpg"
+  href="img/ShoppingAerea.jpg"
+  href="img/CasaAuto.jpg"
+  href="img/antognini1.jpg"
+  href="img/chipre.jpg"
+  href="img/grid2.jpg"
+  href="img/Soukal 3.jpg">
+
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <!-- Logo a la izquierda -->
+     <div class="logo">
+     <a href="index.html">
+    <img src="img/LogoPA.png" alt="Logo Perspecta" class="logo-img" />
+  </a>
+</div>
+
+
+      <!-- Menú centrado -->
+       
+      <nav class="menu">
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+      </nav>
+
+      <!-- Enlace a la derecha para abrir el modal -->
+      <div class="presupuesto-link-container">
+        <a href="#" id="abrirModal">Solicitar presupuesto</a>
+      </div>
+    </div>
+  </header>
+
+  
+  <!-- MODAL / Pantalla emergente -->
+<div id="modalPresupuesto" class="modal">
+  <div class="modal-contenido panel">
+    <span class="cerrar">&times;</span>
+    <h2>Solicitar presupuesto</h2>
+    <form id="formPresupuesto">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="tel" placeholder="Teléfono (opcional)">
+      <textarea placeholder="Escribí tu consulta..." rows="4" required></textarea>
+      <button type="submit" class="enviar">Enviar</button>
+    </form>
+  </div>
+</div>
+
+
+
+  <section class="nosotros">
+  <!-- Cita inicial con dibujo -->
+  <div class="nosotros-cita">
+    <div class="nosotros-cita-illu">
+      <img src="img/nosotros1.webp" alt="Dibujo perspectiva" />
+    </div>
+    <blockquote class="nosotros-cita-texto">
+      <h1>“El dibujo en</h1> 
+      <h1>perspectiva es</h1> 
+      <h1>el medio para</h1> 
+      <h1>experimentar</h1> 
+      <h1>la arquitectura</h1> 
+      <h1>antes de</h1>
+      <h1>construirla”</h1>
+    </blockquote>
+  </div>
+
+  <!-- Contenido principal -->
+   <section class="porque">
+  <div class="nosotros-contenido">
+     <h2 class="porque-titulo">¿Por qué <span>perspecta?</span></h2>
+    <div class="nosotros-body">
+      <div class="nosotros-texto">
+        <p>Nuestra historia comenzó con una</p><p>idea simple: hacer imágenes que</p> <p>representen tus ideas. Pero no solo</p><p> entregamos un producto.</p>
+        &nbsp;
+        <p>Ofrecemos un servicio profesional a</p><p>medida, con la convicción de que la</p> <p>única forma de garantizar la</p> <p>excelencia es controlar cada aspecto</p><p> del proceso.</p>
+        &nbsp;
+        <p>Porque no se trata solo de imágenes,</p> <p>sino de experiencias. Cada etapa</p><p> está pensada para ser clara, fluida y</p><p> cercana.</p>
+        &nbsp;
+        <p>Queremos que trabajar con nosotros</p> <p>sea tan gratificante como ver tu</p> <p>proyecto cobrar vida.</p>
+        &nbsp;
+        <h2 class="porque-titulo"><span>En cada proyecto</span></h2>
+      </div>
+      <div class="nosotros-illu">
+        <img src="img/nosotros4.webp" alt="Dibujo edificio" />
+      </div>
+    </div>
+  </div>
+  </section>
+</section>
+
+
+<!-- =======================
+     Sección: Nuestro equipo
+======================= -->
+<section class="nosotros-equipo">
+
+  <ul class="equipo-lista">
+    <li>Un arquitecto senior dedicado exclusivamente a tu proyecto</li>
+    <li>Un director de interiorismo que cuida cada detalle</li>
+    <li>Un jefe de obra que supervisa la ejecución diariamente</li>
+    <li>Nuestra constructora propia que garantiza plazos y calidad</li>
+  </ul>
+
+  <!-- Imagen + headline -->
+  <!-- Cita inicial con dibujo -->
+  <div class="nosotros-cita">
+    <div class="nosotros-cita-illu">
+      <img src="img/nosotros2.webp" alt="Dibujo perspectiva" />
+    </div>
+    <blockquote class="nosotros-cita-texto">
+      <h1>“Nos</h1> 
+      <h1>importa</h1> 
+      <h1>tanto el</h1> 
+      <h1>proyecto,</h1> 
+      <h1>como quien</h1> 
+      <h1>lo diseña.</h1>
+    </blockquote>
+  </div>
+
+  <!-- Texto final dividido en dos columnas -->
+  <div class="equipo-relaciones">
+    <p>Construimos relaciones claras, honestas y humanas.</p>
+     &nbsp;
+    <p>
+      Colaboramos con arquitectos, desarrolladores e</p><p> inmobiliarias
+      para aumentar el valor de los nuevos</p><p> desarrollos.</p>
+       &nbsp;
+    <p>
+      <strong>Presupuestos cerrados</strong>, sin sorpresas.<br/>
+      <strong>Entregas pactadas</strong>, sin vueltas.
+    </p>
+     &nbsp;
+    <p>Creemos que las mejores ideas nacen del diálogo.<br/>
+        Cuanto más ambicioso el proyecto, más nos inspira.</p>
+  </div>
+    <div class="nosotros3">
+      <img src="img/nosotros3.webp" alt="Dibujo perspectiva" />
+    </div>
+</section>
+
+
+<section class="final-section">
+  <div class="final-content">
+    <h2>Con más de 100 imágenes entregadas en tiempo y forma, hemos desarrollado un sistema que funciona.</h2>
+    <p class="subtle">Con más de 15 clientes que siguen confiando.</p>
+    <p class="subtle">Con más de 2 años conectando ideas con emociones.</p>
+    <p class="highlight">Si buscas profesionales con calidad y compromiso.</p>
+    <a href="#contacto" class="btn-consulta">Solicitar consulta privada</a>
+  </div>
+</section>
+
+
+
+
+<!-- FINAL INICIO -->
+ <!-- CALL TO ACTION -->
+<section class="cta-banner">
+  <div class="cta-content">
+    <p class="cta-pretitle">CÓMO EMPEZAR</p>
+    <h2 class="cta-title">
+      Agenda una <strong>reunión privada</strong> con nuestro equipo de trabajo.<br>
+      No entregamos un producto, ofrecemos un servicio profesional a medida.
+    </h2>
+    <a href="#" class="cta-button">RESERVAR AHORA</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="nosotros.html">Nosotros</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="servicios.html">Servicios</a>
+    <div class="footer-address">
+      <p><strong>OFICINA</strong><br>
+      Manuel Castro 536<br>
+      1832 Lomas de Zamora</p>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="img/facebook.png"/></a>
+      <a href="#"><img src="img/instagram.png"/></a>
+      <a href="https://www.linkedin.com/in/valentin-jabornik-6656a8277/" target="_blank"><img src="img/linkedin.png"/></a>
+    </div>
+  </div>
+  <div class="footer-newsletter">
+    <p class="newsletter-title">SUSCRIBITE</p>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit">UNIRME A LA COMUNIDAD</button>
+    </form>
+    <p class="newsletter-note">Últimas tendencias y descuentos exclusivos para la comunidad!</p>
+  </div>
+</footer>
+
+
+
+  <!-- SCRIPT PRESUPUESTO -->
+  <script src="js/script.js"></script>
+
+
+  </body>
+</html>

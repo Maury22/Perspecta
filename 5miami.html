@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perspecta Studio</title>
+  <link rel="stylesheet" href="css/proyectosIN.css" />
+  <link rel="icon" type="image/png" href="img/logo0.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link
+  rel="preload" 
+  as="image" 
+  href="img/montoya2.jpg" 
+  href="img/FrenteCasa.jpg"
+  href="img/ShoppingAerea.jpg"
+  href="img/CasaAuto.jpg"
+  href="img/antognini1.jpg"
+  href="img/chipre.jpg"
+  href="img/grid2.jpg"
+  href="img/Soukal 3.jpg">
+
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <!-- Logo a la izquierda -->
+     <div class="logo">
+     <a href="index.html">
+    <img src="img/LogoPA.png" alt="Logo Perspecta" class="logo-img" />
+  </a>
+</div>
+
+
+      <!-- Menú centrado -->
+       
+      <nav class="menu">
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+      </nav>
+
+      <!-- Enlace a la derecha para abrir el modal -->
+      <div class="presupuesto-link-container">
+        <a href="#" id="abrirModal">Solicitar presupuesto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MODAL / Pantalla emergente -->
+<div id="modalPresupuesto" class="modal">
+  <div class="modal-contenido panel">
+    <span class="cerrar">&times;</span>
+    <h2>Solicitar presupuesto</h2>
+    <form id="formPresupuesto">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="tel" placeholder="Teléfono (opcional)">
+      <textarea placeholder="Escribí tu consulta..." rows="4" required></textarea>
+      <button type="submit" class="enviar">Enviar</button>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+ <section class="proyectos">
+    <div class="proyectos-header">
+    <h2 class="proyectos-titulo">JOSHUA TREE</h2>
+    <p class="proyecto-author">BluHaus</p>
+    <p class="proyectos-subtitulo">California, EEUU.</p>
+  </div>
+
+  <div class="imagenes-lavalle">
+    <img src="img/miami1.png" >
+    <img src="img/miami2.png" >
+    <img src="img/miami3.png" >
+    <img src="img/miami4.png" >
+    <img src="img/miami5.png" >
+    <img src="img/miami6.png" >    
+  </div>
+</section>
+
+
+
+
+
+ <!-- CALL TO ACTION -->
+<section class="cta-banner">
+  <div class="cta-content">
+    <p class="cta-pretitle">CÓMO EMPEZAR</p>
+    <h2 class="cta-title">
+      Agenda una <strong>reunión privada</strong> con nuestro equipo de trabajo.<br>
+      No entregamos un producto, ofrecemos un servicio profesional a medida.
+    </h2>
+    <a href="#" class="cta-button">RESERVAR AHORA</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="nosotros.html">Nosotros</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="servicios.html">Servicios</a>
+    <div class="footer-address">
+      <p><strong>OFICINA</strong><br>
+      Manuel Castro 536<br>
+      1832 Lomas de Zamora</p>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="img/facebook.png"/></a>
+      <a href="#"><img src="img/instagram.png"/></a>
+      <a href="https://www.linkedin.com/in/valentin-jabornik-6656a8277/" target="_blank"><img src="img/linkedin.png"/></a>
+    </div>
+  </div>
+  <div class="footer-newsletter">
+    <p class="newsletter-title">SUSCRIBITE</p>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit">UNIRME A LA COMUNIDAD</button>
+    </form>
+    <p class="newsletter-note">Últimas tendencias y descuentos exclusivos para la comunidad!</p>
+  </div>
+</footer>

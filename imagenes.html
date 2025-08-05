@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perspecta Studio</title>
+  <link rel="stylesheet" href="css/servicios.css" />
+  <link rel="icon" type="image/png" href="img/logo0.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <!-- Logo a la izquierda -->
+     <div class="logo">
+     <a href="index.html">
+    <img src="img/LogoPA.png" alt="Logo Perspecta" class="logo-img" />
+  </a>
+</div>
+
+
+      <!-- Menú centrado -->
+       
+      <nav class="menu">
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+      </nav>
+
+      <!-- Enlace a la derecha para abrir el modal -->
+      <div class="presupuesto-link-container">
+        <a href="#" id="abrirModal">Solicitar presupuesto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MODAL / Pantalla emergente -->
+<div id="modalPresupuesto" class="modal">
+  <div class="modal-contenido panel">
+    <span class="cerrar">&times;</span>
+    <h2>Solicitar presupuesto</h2>
+    <form id="formPresupuesto">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="tel" placeholder="Teléfono (opcional)">
+      <textarea placeholder="Escribí tu consulta..." rows="4" required></textarea>
+      <button type="submit" class="enviar">Enviar</button>
+    </form>
+  </div>
+</div>
+
+  <!--PARTE "IMAGENES"-->
+  <section class="seccionImagenesTexto">
+  <div class="ImagenesTexto">
+    <img src="img/grid7.jpg"/>
+    <div class="service-caption">“Sancho el fuerte 30” - Alexis Montoya.</div>
+  </div>
+  <div class="columna-texto">
+    <p>IMAGENES</p>
+    <h1>Visualizaciones 3D realistas que capturan cada detalle
+        de los diseños arquitectónicos con precisión artística,
+        proporcionando una visión clara y convincente de los
+        edificios futuros.</h1>
+  </div>
+  </section>
+
+    <!--PARTE "EXTERIOR"-->
+  <section class="seccionImagenesTexto2">
+  <div class="ImagenesTexto2">
+    <img src="img/grid4.jpg"/>
+    <div class="service-caption2">“Sancho el fuerte 30” - Alexis Montoya.</div>
+  </div>
+  <div class="columna-texto2">
+    <p>EXTERIOR</p>
+    <h1>Imágenes que resaltan la armonía
+        entre el diseño arquitectónico y el entorno,
+        resaltando cada detalle de las fachadas
+        y sus interacciones con el espacio exterior.</h1>
+  </div>
+  </section>
+
+      <!--PARTE "INTERIOR"-->
+  <section class="seccionImagenesTexto">
+  <div class="ImagenesTexto">
+    <img src="img/grid6.jpg"/>
+    <div class="service-caption">“Sancho el fuerte 30” - Alexis Montoya.</div>
+  </div>
+  <div class="columna-texto">
+    <p>INTERIOR</p>
+    <h1>Visualizaciones detalladas de espacios interiores que
+        transmiten comodidad, funcionalidad y elegancia en
+        cada detalle.</h1>
+  </div>
+  </section>
+
+       <!--PARTE "AEREA"-->
+  <section class="seccionImagenesTexto2">
+  <div class="ImagenesTexto2">
+    <img src="img/ShoppingAerea.webp"/>
+    <div class="service-caption2">“Sancho el fuerte 30” - Alexis Montoya.</div>
+  </div>
+  <div class="columna-texto2">
+    <p>AEREA</p>
+    <h1>Perspectivas aéreas integradas en el entorno,
+        combinando fotografías reales con visualizaciones 3D
+        para una visión completa e impactante del proyecto</h1>
+  </div>
+  </section>
+ 
+
+
+    <!-- CALL TO ACTION -->
+    <section class="cta-banner">
+    <div class="cta-content">
+        <p class="cta-pretitle">CÓMO EMPEZAR</p>
+        <h2 class="cta-title">
+        Agenda una <strong>reunión privada</strong> con nuestro equipo de trabajo.<br>
+        No entregamos un producto, ofrecemos un servicio profesional a medida.
+        </h2>
+     <a href="#" class="cta-button">RESERVAR AHORA</a>
+    </div>
+    </section>
+  
+  <!--FOOTER-->
+  <footer class="site-footer">
+  <div class="footer-links">
+    <a href="#">Nosotros</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="servicios.html">Servicios</a>
+    <div class="footer-address">
+      <p><strong>OFICINA</strong><br>
+      Manuel Castro 536<br>
+      1832 Lomas de Zamora</p>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="img/facebook.png"/></a>
+      <a href="#"><img src="img/instagram.png"/></a>
+      <a href="https://www.linkedin.com/in/valentin-jabornik-6656a8277/" target="_blank"><img src="img/linkedin.png"/></a>
+    </div>
+  </div>
+  <div class="footer-newsletter">
+    <p class="newsletter-title">SUSCRIBITE</p>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit">UNIRME A LA COMUNIDAD</button>
+    </form>
+    <p class="newsletter-note">Últimas tendencias y descuentos exclusivos para la comunidad!</p>
+  </div>
+</footer>
+
+
+
+

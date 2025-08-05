@@ -1,0 +1,316 @@
+<!-- <div class="grid">: Contenedor para las imágenes de proyectos. -->
+<!-- <img src=...>: Cada imagen representa un proyecto. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perspecta Studio</title>
+  <link rel="stylesheet" href="css/proyectos.css" />
+  <link rel="icon" type="image/png" href="img/logo0.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link 
+  rel="preload" 
+  as="image" 
+  href="img/montoya2.jpg" 
+  href="img/FrenteCasa.jpg"
+  href="img/ShoppingAerea.jpg"
+  href="img/CasaAuto.jpg"
+  href="img/antognini1.jpg"
+  href="img/chipre.jpg"
+  href="img/grid2.jpg"
+  href="img/Soukal 3.jpg">
+
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <!-- Logo a la izquierda -->
+     <div class="logo">
+     <a href="index.html">
+    <img src="img/LogoPA.png" alt="Logo Perspecta" class="logo-img" />
+  </a>
+</div>
+
+
+      <!-- Menú centrado -->
+       
+      <nav class="menu">
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+      </nav>
+
+      <!-- Enlace a la derecha para abrir el modal -->
+      <div class="presupuesto-link-container">
+        <a href="#" id="abrirModal">Solicitar presupuesto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MODAL / Pantalla emergente -->
+<div id="modalPresupuesto" class="modal">
+  <div class="modal-contenido panel">
+    <span class="cerrar">&times;</span>
+    <h2>Solicitar presupuesto</h2>
+    <form id="formPresupuesto">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="tel" placeholder="Teléfono (opcional)">
+      <textarea placeholder="Escribí tu consulta..." rows="4" required></textarea>
+      <button type="submit" class="enviar">Enviar</button>
+    </form>
+  </div>
+</div>
+
+
+  <section class="proyectosIntro">
+  <p class="tittleProyectos">PROYECTOS</p>
+
+  <div class="fraseProyectosContenedor">
+    <h2 class="fraseProyectos">Cada render es</h2>
+    <h2 class="fraseProyectos">una obra viva.</h2>
+  </div>
+</section>
+
+
+
+
+
+<section class="proyectos">
+  <div class="proyectos-grid">
+    <!-- Proyecto 1 -->
+    <a href="1sancho.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/montoya2.webp" alt="Av. Sancho el Fuerte 30" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Av. Sancho el Fuerte 30.</p>
+        <p class="proyecto-lugar">
+          Pamplona, España<br>
+          <span>Alexis Montoya</span>
+        </p>
+      </div>
+    </a>
+
+    <!-- Proyecto 2 -->
+    <a href="2puertoNizuc.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/FrenteCasa.webp" alt="Puerto Nizuc" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Puerto Nizuc</p>
+        <p class="proyecto-lugar">
+          Hudson, Buenos Aires<br>
+          <span>GMARQ</span>
+        </p>
+      </div>
+    </a>
+
+    <!-- Proyecto 3 -->
+    <a href="3alcorta.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/ShoppingAerea.webp" alt="Shopping Alcorta" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Shopping Alcorta</p>
+        <p class="proyecto-lugar">
+          CABA<br>
+          <span>Estudio FellerHerc</span>
+        </p>
+      </div>
+    </a>
+
+    <!-- Proyecto 4 -->
+    <a href="4azurra.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/CasaAuto.webp" alt="Shopping Alcorta" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Azurra Tortugas. Manuel Alberti, Buenos Aires.</p>
+        <p class="proyecto-lugar">
+          <span>NRV</span>
+        </p>
+      </div>
+    </a>
+
+
+    <!-- Proyecto 5 -->
+    <a href="5miami.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/miami0.webp" alt="Shopping Alcorta" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">W 30th St. Miami, Florida.</p>
+        <p class="proyecto-lugar">
+          <span>Alacasa Design Studio</span>
+        </p>
+      </div>
+    </a>
+
+
+    <!-- Proyecto 6 -->
+    <a href="6chacras.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/antognini1.webp" alt="Shopping Alcorta" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Chacras de la Reserva. Campana, Buenos Aires.</p>
+        <p class="proyecto-lugar">
+        </p>
+      </div>
+    </a>
+
+        <!-- Proyecto 7 -->
+    <a href="7chipre.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/chipre.webp" alt="Shopping Alcorta" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">YD2020114. Nicosia, Chipre.</p>
+        <p class="proyecto-lugar">
+          <span>Demetriou Associates</span>
+        </p>
+      </div>
+    </a>
+
+    
+      <!-- Proyecto 8 -->
+    <a href="8virreyloreto.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/grid2.webp" alt="Shopping Alcorta" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Virrey Loreto. CABA.</p>
+        <p class="proyecto-lugar">
+        </p>
+      </div>
+    </a>
+
+
+      <!-- Proyecto 9 -->
+    <a href="9soukal.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/Soukal 3.webp" alt="Shopping Alcorta" loading="lazy" width="600" height="600"> 
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">La Providencia. Canning, Buenos Aires.</p>
+        <p class="proyecto-lugar">
+          <span>Soukal Arquitectos</span>
+        </p>
+      </div>
+    </a>
+
+
+         <!-- Proyecto 10 -->
+    <a href="10lavalle.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/lavalle1.webp" alt="Lavalle" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Lavalle. CABA.</p>
+        <p class="proyecto-lugar">
+        </p>
+      </div>
+    </a>
+
+         <!-- Proyecto 11 -->
+    <a href="11art.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/grid4.jpg" alt="BluHaus" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Joshua Tree. California, EEUU.</p>
+        <p class="proyecto-lugar">
+          <span>BluHaus</span>
+        </p>
+      </div>
+    </a>
+
+         <!-- Proyecto 12 -->
+    <a href="12ugarte.html" class="proyecto-card">
+      <div class="proyecto-thumb">
+        <img src="img/ugarte1.jpg" alt="Shopping Alcorta" loading="lazy" width="600" height="600">
+        <div class="overlay-circle">Ver proyecto</div>
+      </div>
+      <div class="proyecto-info">
+        <p class="proyecto-nombre">Manuel Ugarte. CABA.</p>
+        <p class="proyecto-lugar">
+        </p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+
+
+<!-- FINAL INICIO -->
+ <!-- CALL TO ACTION -->
+<section class="cta-banner">
+  <div class="cta-content">
+    <p class="cta-pretitle">CÓMO EMPEZAR</p>
+    <h2 class="cta-title">
+      Agenda una <strong>reunión privada</strong> con nuestro equipo de trabajo.<br>
+      No entregamos un producto, ofrecemos un servicio profesional a medida.
+    </h2>
+    <a href="#" class="cta-button">RESERVAR AHORA</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="nosotros.html">Nosotros</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="servicios.html">Servicios</a>
+    <div class="footer-address">
+      <p><strong>OFICINA</strong><br>
+      Manuel Castro 536<br>
+      1832 Lomas de Zamora</p>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="img/facebook.png"/></a>
+      <a href="#"><img src="img/instagram.png"/></a>
+      <a href="https://www.linkedin.com/in/valentin-jabornik-6656a8277/" target="_blank"><img src="img/linkedin.png"/></a>
+    </div>
+  </div>
+  <div class="footer-newsletter">
+    <p class="newsletter-title">SUSCRIBITE</p>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit">UNIRME A LA COMUNIDAD</button>
+    </form>
+    <p class="newsletter-note">Últimas tendencias y descuentos exclusivos para la comunidad!</p>
+  </div>
+</footer>
+
+
+
+  <!-- SCRIPT PRESUPUESTO -->
+  <script src="js/script.js"></script>
+  <script src="js/cursor.js"></script>
+
+
+  </body>
+</html>
+  
+  
+
+  

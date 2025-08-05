@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perspecta Studio</title>
+  <link rel="stylesheet" href="css/inicio.css" />
+  <link rel="preload" as="image" href="img/portada.jpg" />
+  <link rel="preload" as="image" href="img/living.jpg" />
+  <link rel="icon" type="image/png" href="img/logo0.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <header>
+    <div class="header-container">
+      <!-- Logo a la izquierda -->
+     <div class="logo">
+     <a href="index.html">
+    <img src="img/LogoPA.png" alt="Logo Perspecta" class="logo-img" />
+  </a>
+</div>
+
+
+      <!-- Menú centrado -->
+       
+      <nav class="menu">
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+      </nav>
+
+      <!-- Enlace a la derecha para abrir el modal -->
+      <div class="presupuesto-link-container">
+        <a href="#" id="abrirModal">Solicitar presupuesto</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MODAL / Pantalla emergente -->
+<div id="modalPresupuesto" class="modal">
+  <div class="modal-contenido panel">
+    <span class="cerrar">&times;</span>
+    <h2>Solicitar presupuesto</h2>
+    <form id="formPresupuesto">
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="tel" placeholder="Teléfono (opcional)">
+      <textarea placeholder="Escribí tu consulta..." rows="4" required></textarea>
+      <button type="submit" class="enviar">Enviar</button>
+    </form>
+  </div>
+</div>
+
+    <!-- HERO / Sección principal -->
+  <main class="hero">
+  <img src="img/portada.jpg" alt="Casa moderna" class="imagen-hero">
+  <div class="hero-texto">
+    <h2></h2>
+    <p></p>
+  </div>
+  </main>
+
+  <!--Sección Presentacion Perpecta + Consultar Privada-->
+<section class="intro-blanca">
+  <div class="intro-texto">
+    <!-- Agrupamos todo el bloque textual en una sola columna -->
+    <div class="intro-bloque-texto">
+      <img src="img/LogoPerspecta.png" alt="Logo Perspecta" class="logo-hero" />
+      <p class="tagline">LA EXPERIENCIA PREVIA DEL ESPACIO</p>
+      <p class="descripcion-hero">
+        SOMOS UN ESTUDIO ESPECIALIZADO<br />
+        EN VISUALIZACION ARQUITECTONICA.
+      </p>
+    </div>
+  </div>
+
+  <div class="intro-logo">
+    <img src="img/cuadrado.png" alt="Logo Cubo" class="logo-cubo" />
+  </div>
+</section>
+
+  <!--Sección Collage Loop-->
+<section class="loop-contenedor">
+  <div class="loop-scroll">
+    <img src="img/collage.png" alt="proyectos"/>
+    <img src="img/collage.png" alt="proyectos duplicado"/>
+  </div>
+  <div class="boton-centro">
+    <a href="proyectos.html" class="boton-ver-proyectos">VER PROYECTOS</a>
+  </div>
+</section>
+
+
+  <!--Sección Texto mas Multiples fotos-->
+<section class="pilares">
+  <div class="grid-imagenes">
+      <img src="img/grid1.jpg" alt="">
+      <img src="img/grid2.jpg" alt="">
+      <img src="img/grid3.jpg" alt="">
+      <img src="img/grid4.jpg" alt="">
+      <img src="img/grid5.jpg" alt="">
+      <img src="img/grid6.jpg" alt="">
+      <img src="img/grid7.jpg" alt="">
+      <img src="img/grid8.jpg" alt="">
+      <img src="img/grid9.jpg" alt="">
+    </div>
+
+  <div class="texto-pilares">
+    <p><strong>Somos una prolongación de tu estudio.</strong> Contacto directo con artista 3D. Seguimiento en tiempo real del proceso.<br>
+    Comunicación fluida y disponible con nuestro grupo de trabajo.</p>
+    <p>&nbsp</p>  
+    <p>&nbsp</p>
+    <p><strong>Creemos en relaciones claras y honestas.</strong> Trabajamos con presupuestos cerrados. Entregas en tiempo y forma, previamente pactadas. Nuestro equipo se dedica por completo a tu proyecto.</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>No hay barreras: siempre encontramos una solución creativa y técnica para llevar tu idea más lejos. <strong>Nos apasionan los desafíos.</strong> Cuanto más exigente el proyecto, más nos motiva.</p>
+  </div>
+  </section>
+
+
+
+  <!-- Sección con zoom inverso -->
+  <section class="zoom-out-section">
+  <div class="zoom-out-sticky">
+    <img src="img/PatioShopping.jpg" alt="Proyecto Shopping Alcorta" class="zoom-img" />
+    <div class="zoom-final-overlay">
+      <div class="zoom-caption">
+        <h2>Proyecto Shopping Alcorta.</h2>
+        <p>Ganador Concurso 2025</p>
+      </div>
+      <div class="zoom-logos">
+        <img src="img/fellerherc.png" alt="Feller & Herc" />
+        <img src="img/perspectaLOGO.png" alt="Perspecta" />
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+    <!--Sección CollageShopping Loop-->
+<section class="loop-contenedor2">
+  <div class="loop-scroll2">
+    <img src="img/collageShopping.png" alt="proyectos"/>
+    <img src="img/collageShopping.png" alt="proyectos duplicado"/>
+  </div>
+  <div class="boton-centro2">
+    <a href="3alcorta.html" class="boton-ver-Shopping">VER SHOPPING ALCORTA</a>
+  </div>
+</section>
+
+
+
+<section class="comparador-section">
+  <section class="comparador-container">
+  <div class="img-wrapper">
+    <img src="img/ShoppingAerea0.jpg" alt="Imagen antes" class="img-before">
+    <div class="img-overlay">
+      <img src="img/ShoppingAerea.jpg" alt="Imagen después" class="img-after">
+    </div>
+    <div class="slider-bar"></div>
+    <div class="label despues">Después</div>
+    <div class="label antes">Antes</div>
+  </div>
+</section>
+</section>
+
+<!-- FINAL INICIO -->
+ <!-- CALL TO ACTION -->
+<section class="cta-banner">
+  <div class="cta-content">
+    <p class="cta-pretitle">CÓMO EMPEZAR</p>
+    <h2 class="cta-title">
+      Agenda una <strong>reunión privada</strong> con nuestro equipo de trabajo.<br>
+      No entregamos un producto, ofrecemos un servicio profesional a medida.
+    </h2>
+    <a href="#" class="cta-button">RESERVAR AHORA</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-links">
+    <a href="#">Nosotros</a>
+    <a href="proyectos.html">Proyectos</a>
+    <a href="servicios.html">Servicios</a>
+    <div class="footer-address">
+      <p><strong>OFICINA</strong><br>
+      Manuel Castro 536<br>
+      1832 Lomas de Zamora</p>
+    </div>
+    <div class="footer-social">
+      <a href="#"><img src="img/facebook.png"/></a>
+      <a href="#"><img src="img/instagram.png"/></a>
+      <a href="https://www.linkedin.com/in/valentin-jabornik-6656a8277/" target="_blank"><img src="img/linkedin.png"/></a>
+    </div>
+  </div>
+  <div class="footer-newsletter">
+    <p class="newsletter-title">SUSCRIBITE</p>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Email" required>
+      <button type="submit">UNIRME A LA COMUNIDAD</button>
+    </form>
+    <p class="newsletter-note">Últimas tendencias y descuentos exclusivos para la comunidad!</p>
+  </div>
+</footer>
+
+
+
+
+
+  <!-- SCRIPT PRESUPUESTO -->
+  <script src="js/script.js"></script>
+
+  <!-- SCRIPT PARALLAX -->
+  <script src="js/parallax.js"></script>
+
+  <!-- SCRIPT COMPARADOR -->
+  <script src="js/comparador.js"></script>
+
+
+
+
+</body>
+</html>
